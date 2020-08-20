@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 58488f7537e9e90552353a8e81505dd408821b3c5fa38800581a38e7bf54e10e
+-- hash: 5952953012ee1d372a04a25c56f5c4b40364e133e63d3eedef5b64672b0ee9e0
 
 name:           bende
 version:        0.0.0
@@ -32,8 +32,8 @@ library
   default-language: Haskell2010
 
 executable bende
+  main-is: Main.hs
   other-modules:
-      Main
       Paths_bende
   hs-source-dirs:
       src
