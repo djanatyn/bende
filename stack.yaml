@@ -1,0 +1,8 @@
+---
+resolver: lts-16.10
+packages:
+- .
+nix:
+  enable: true
+  packages:
+   - zlib 

@@ -1,0 +1,27 @@
+---
+name: "bende"
+author: "Jonathan Strickland"
+
+dependencies:
+  - base
+  - text
+  - bytestring
+  - transformers
+  - pipes
+  - webex-teams-api
+
+library:
+  source-dirs:
+    - src
+
+default-extensions:
+  - TypeApplications
+  
+executables:
+  bende:
+    source-dirs:
+      - src
+    ghc-options:
+      - -rtsopts
+      - -g
+      - -threaded

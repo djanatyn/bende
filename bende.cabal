@@ -1,0 +1,49 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.33.0.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: 58488f7537e9e90552353a8e81505dd408821b3c5fa38800581a38e7bf54e10e
+
+name:           bende
+version:        0.0.0
+author:         Jonathan Strickland
+maintainer:     Jonathan Strickland
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+
+library
+  exposed-modules:
+      Main
+  other-modules:
+      Paths_bende
+  hs-source-dirs:
+      src
+  default-extensions: TypeApplications
+  build-depends:
+      base
+    , bytestring
+    , pipes
+    , text
+    , transformers
+    , webex-teams-api
+  default-language: Haskell2010
+
+executable bende
+  other-modules:
+      Main
+      Paths_bende
+  hs-source-dirs:
+      src
+  default-extensions: TypeApplications
+  ghc-options: -rtsopts -g -threaded
+  build-depends:
+      base
+    , bytestring
+    , pipes
+    , text
+    , transformers
+    , webex-teams-api
+  default-language: Haskell2010
