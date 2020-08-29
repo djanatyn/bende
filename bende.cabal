@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 5952953012ee1d372a04a25c56f5c4b40364e133e63d3eedef5b64672b0ee9e0
+-- hash: ddca544e81d336ea0b7dd462d5717399b0dc5efe2b7de780138e7787436b5557
 
 name:           bende
 version:        0.0.0
@@ -24,6 +24,7 @@ library
   default-extensions: TypeApplications
   build-depends:
       base
+    , brick
     , bytestring
     , pipes
     , text
@@ -41,6 +42,7 @@ executable bende
   ghc-options: -rtsopts -g -threaded
   build-depends:
       base
+    , brick
     , bytestring
     , pipes
     , text

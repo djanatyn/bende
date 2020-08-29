@@ -9,6 +9,7 @@ dependencies:
   - transformers
   - pipes
   - webex-teams-api
+  - brick
 
 library:
   source-dirs:
